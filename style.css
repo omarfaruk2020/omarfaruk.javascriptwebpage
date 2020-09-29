@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: 100%;
+  height: 80vh;
+  background-image:linear-gradient(rgba(0, 169, 253, 0.253),rgba(0,168,253,0.3)), url(./pexels-jessica-lewis-583846.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.navbar:before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+  opacity: .3;
+  z-index: -1;
+}
+.nav-item{
+  color: white;
+  font-weight: bold;
+}
+.center-div{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+
+}
+.btn1{
+  content: "";
+  border: 2px solid white;
+  border-radius: 100px;
+  margin: 5px 5px;
+  padding: 8px 30px;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+.btn1:hover{
+  color: black;
+  background: pink;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.header-section{
+  width: 100%;
+  height: inherit;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.extra{
+  margin: 3rem;
+}
+.extra-div{
+  -webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .4s ease-in-out;
+transition: .3s ease-in-out;
+}
+.extra-div:hover{
+  box-shadow: 0 0 20px 0 green;
+  -webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+.navbar-toggler{
+  border: 2px solid white;
+}
+#navbarNav{
+  color: white;
+}
+.ami:hover{
+  transform: translateY(35px);
+  transition: .6s all ease;
+}
+#more {display: none;}
+.ftr{
+  margin-top: 7rem;
+}
+.progressbar{
+  background-color: gray;
+}
+.blog{
+  background-color: paleturquoise;
+}
